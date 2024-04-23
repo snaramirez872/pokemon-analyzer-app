@@ -1,0 +1,26 @@
+:root {
+    --weak: rgb(148, 0, 0);
+    --strong: rgb(0, 94, 0);
+    --null: rgb(44, 44, 44);
+    --half-damage: rgb(187, 90, 0);
+}
+
+.half-damage {
+    background-color: var(--half-damage);
+    color: white;
+}
+
+.null {
+    background-color: var(--null);
+    color: white;
+}
+
+.strong {
+    background-color: var(--strong);
+    color: white;
+}
+
+.weak {
+    background-color: var(--weak);
+    color: white;
+}
